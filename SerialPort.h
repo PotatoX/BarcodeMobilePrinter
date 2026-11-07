@@ -76,11 +76,12 @@ public:
         }
 
         memset(&tty, 0, sizeof(tty));
-        tcgetattr(fileDescriptor, &tty);
+        //tcgetattr(fileDescriptor, &tty);
         cfsetospeed(&tty, baudRate);
         cfsetispeed(&tty, baudRate);
 
         // Configure the serial port parameters:
+        //cfmakeraw(&tty);
         tty.c_iflag &= ~(IXOFF);
         tty.c_iflag |= IGNBRK;
         tty.c_oflag &= ~(OPOST);
