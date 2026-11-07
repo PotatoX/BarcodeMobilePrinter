@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" remoteFilesAllowedToDisappearOnAutoupload="false">
+    <serverData>
+      <paths name="Remote Host (afcc210e-6a99-440d-ab1a-47fad767933c)">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/tmp/tmp.1cP7hSRyWY/BarcodeMobilePrinter" local="$PROJECT_DIR$" />
+          </mappings>
+          <excludedPaths>
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-release" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug" />
+            <excludedPath local="true" path="$PROJECT_DIR$/References" />
+            <excludedPath local="true" path="$PROJECT_DIR$/SD Card Backup Image" />
+            <excludedPath local="true" path="$PROJECT_DIR$/main.cpp.bak_11_06_26" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-debug-remote" />
+            <excludedPath local="true" path="$PROJECT_DIR$/cmake-build-release-remote" />
+          </excludedPaths>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
