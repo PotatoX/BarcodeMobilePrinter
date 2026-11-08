@@ -1,0 +1,31 @@
+hostnamectl set-hostname mobileLabel
+
+adduser mobilelabel
+
+snapd
+glabels
+cups-bsd
+cups
+printer-driver-dymo
+printer-driver-all
+gdb
+btop
+rsync
+screen
+
+cmake
+
+apt update -y
+apt upgrade -y
+
+apt install snapd glabels cups-bsd cups printer-driver-dymo printer-driver-all gdb btop rsync screen -y
+
+snap install cmake --classic
+
+
+/etc/sudoers.d/reboot
+//Allow for reboot and poweroff
+mobilelabel ALL = NOPASSWD: /sbin/poweroff, /sbin/reboot
+
+
+serialInput1Device=/dev/ttyUSB0

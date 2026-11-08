@@ -6,6 +6,7 @@
   <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
   <component name="CidrRootsConfiguration">
     <excludeRoots>
+      <file path="$PROJECT_DIR$/Reference" />
       <file path="$PROJECT_DIR$/References" />
       <file path="$PROJECT_DIR$/SD Card Backup Image" />
       <file path="$PROJECT_DIR$/main.cpp.bak_11_06_26" />
